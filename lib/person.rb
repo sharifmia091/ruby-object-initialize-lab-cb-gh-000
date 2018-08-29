@@ -2,7 +2,7 @@ class Person
 
 
 
-  def initialization(name=nil)
+  def initialization
     @name=name
   end
 
