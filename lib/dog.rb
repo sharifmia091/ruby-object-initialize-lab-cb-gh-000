@@ -1,8 +1,8 @@
 class Dog
 
-  def initialize(name1,name2)
-    @name1=name1
-    @name2=name2
+  def initialize(dog_one,dog_two)
+    @dog_one=dog_one
+    @dog_two=dog_two
   end
 
   attr_accessor :name1 :name2
