@@ -5,6 +5,14 @@ class Dog
     @dog_two=dog_two
   end
 
-  attr_accessor :name1 :name2
+  def name=(dog_one, dog_two)
+    @dog_one=dog_one
+    @dog_two=dog_two
+  end
+
+  def name
+    @dog_one
+    @dog_two
+  end
 
 end
